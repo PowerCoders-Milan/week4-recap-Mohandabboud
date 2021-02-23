@@ -44,6 +44,8 @@ if (after2 > 0) {
   window.alert('invalid');
 } else if (after1 == after + 1) {
   window.alert('invalid');
+} else if (after1 == email.length) {
+  window.alert('invalid');
 } else if (after == 1) {
   window.alert('invalid');
 } else if (after5 > after) {
