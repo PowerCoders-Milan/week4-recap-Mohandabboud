@@ -49,7 +49,7 @@ while (!false) {
     seven = seven + 1;
     eight = eight + 1;
     if (eight == 3) {
-      window.alert('Good job! You win 3-2');
+      window.alert(['Good job! You win 3 times ','and lost only  ',nine].join(''));
       break;
     }
   }
@@ -58,7 +58,7 @@ while (!false) {
     seven = seven + 1;
     nine = nine + 1;
     if (nine == 3) {
-      window.alert('You lose 1-3. Try again!"');
+      window.alert(['You lost 3 times ','and only win ',eight].join(''));
       break;
     }
   }
@@ -67,7 +67,7 @@ while (!false) {
     seven = seven + 1;
     eight = eight + 1;
     if (eight == 3) {
-      window.alert('Good job! You win 3-2');
+      window.alert(['Good job! You win 3 times','and lost only ',nine].join(''));
       break;
     }
   }
@@ -76,7 +76,7 @@ while (!false) {
     seven = seven + 1;
     nine = nine + 1;
     if (nine == 3) {
-      window.alert('You lose 1-3. Try again!"');
+      window.alert(['You lost 3 times ','and only win ',eight].join(''));
       break;
     }
   }
@@ -89,7 +89,7 @@ while (!false) {
     seven = seven + 1;
     nine = nine + 1;
     if (nine == 3) {
-      window.alert('You lose 1-3. Try again!"');
+      window.alert(['You lost 3 times','and only win ',eight].join(''));
       break;
     }
   }
@@ -102,9 +102,9 @@ while (!false) {
     seven = seven + 1;
     eight = eight + 1;
     if (eight == 3) {
-      window.alert('Good job! You win 3-2');
+      window.alert(['Good job! You win 3 times','and lost only ',nine].join(''));
       break;
     }
   }
-  window.alert('round number' + String(seven));
+  window.alert('round number ' + String(seven));
 }

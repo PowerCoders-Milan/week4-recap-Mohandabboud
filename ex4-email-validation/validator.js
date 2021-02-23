@@ -31,14 +31,11 @@ after3 = [email.indexOf('?') + 1,email.indexOf('/') + 1,email.indexOf('&') + 1,e
 after5 = email.lastIndexOf('@') + 1;
 if (after == 0) {
   window.alert('invalid');
-}
-if (after1 == 0) {
+} else if (after1 == 0) {
   window.alert('invalid');
-}
-if (after1 < after) {
+} else if (after1 < after) {
   window.alert('invalid');
-}
-if (after2 > 0) {
+} else if (after2 > 0) {
   window.alert('invalid');
 } else if (after3 > 0) {
   window.alert('invalid');
